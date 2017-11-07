@@ -1,5 +1,6 @@
 package tryouts;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Main {
@@ -43,5 +44,12 @@ public class Main {
 		map.remove(new String("Hello"));
 		System.out.println(map);
 		////////////////////////
+
+	}
+
+	void m1(ArrayList<Object> l) {
+
+		l.add("hi");
+		l.add(10);
 	}
 }
